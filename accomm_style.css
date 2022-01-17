@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.upper{
+
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3)),url("https://monklab.org/wp-content/uploads/2016/04/ASTANA.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.nav-bar{
+
+    background: rgba(0,0,0,0.7);
+    height: 67px;
+    position: absolute;
+    width: 100%;
+}
+.menu {
+    float: right;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+}
+#logotype{
+    margin: 0 50px;
+    padding: 10px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}
+.menu li {
+    list-style: none;
+    margin: 0 5px;
+}
+.menu li a {
+    padding: 1em;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu li a:hover {
+    color: #A2D0CF;
+}
+.mega-menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    visibility: hidden;
+}
+.menu li:hover > .mega-menu {
+    opacity: 1;
+    overflow: visible;
+    visibility: visible;
+}
+.mega-menu .column {
+    padding: 1em;
+}
+.mega-menu .column ul {
+    margin: 0;
+    padding: 0;
+}
+.mega-menu .column li {
+    margin-bottom: 0.75em;
+}
+.mega-menu .column h2{
+    text-transform: uppercase;
+    margin: 0 0 1em 0;
+    color: white;
+    font-family: "Bookman Old Style", serif;
+}
+.mega-menu .column a {
+    padding: 0;
+}
+.mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.mid p{
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+.mid h2{
+    color:#fff;
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+}
+
+.mid .btn a.first {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    border:1px solid red;
+    font-weight: 500;
+    padding: 0.9rem;
+    border-radius: 2px;
+}
+.mid .btn a.first:hover{
+    background: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.central-text{
+    position: absolute;
+    top:57%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0.9;
+    color: white;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.nurik {
+    margin-left: 300px;
+    font-size: 55px;
+}
+
+.hotel {
+    background-color: #262626;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.text{
+
+    color: white;
+    overflow: hidden;
+}
+.container{
+    float: left;
+    display: inline-block;
+}
+.qwe{
+
+    display: inline-block;
+}
+.hiltonHotel{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+.hotels{
+    background: #171819;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 10rem;
+}
+.hotels h2,h3,h4,p{
+    color: white;
+}
+.hotels .one {
+    width: 45%;
+}
+.hotels .two{
+    width: 35%;
+    position: center;
+}
+
+
+.hotels .one h2 {
+    font-size: 2rem;
+    padding-bottom: 1.1rem;
+}
+.hotels .two h3 {
+    width: 35%;
+    font-size: 1.5rem;
+}
+.hotels .one h6{
+    font-size: 1.2rem;
+    color: #666262;
+}
+.hotels .two a{
+    color: red;
+    border: 1px solid red;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hotels .two a:hover{
+    border: 1px solid red;
+    background: white;
+    cursor: pointer;
+
+}
+
+
+
+
+.ritzHotel{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+.hotel{
+    background: #171819;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 10rem;
+}
+.hotels h2,h3,h4,p{
+    color: white;
+}
+.hotel .onee {
+    width: 45%;
+}
+.hotel .twoo{
+    width: 35%;
+    position: center;
+}
+
+
+.hotel .onee h2 {
+    font-size: 2rem;
+    padding-bottom: 1.1rem;
+}
+.hotel .twoo h3 {
+    width: 35%;
+    font-size: 1.5rem;
+}
+.hotel .onee h6{
+    font-size: 1.2rem;
+    color: #666262;
+}
+.hotel .twoo .ttt {
+    color: red;
+    border: 1px solid red;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hotel .twoo .ttt:hover{
+    border: 1px solid red;
+    background: white;
+    cursor: pointer;
+
+}
+.hotels img{
+    cursor: pointer;
+
+}
+.hotels  img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.hotels :hover img{
+    transform:scale(1.1);
+
+}
+.hotel img{
+    cursor: pointer;
+
+
+}
+.hotel  img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.hotel :hover img{
+    transform:scale(1.1);
+
+}
+ol li{
+    font-weight: bold;
+    margin: 0 0 0.5rem 0;
+    color: #ff5733;
+    font-size: 1.2rem;
+}
+.footer{
+    border-top: 1px solid black;
+    background-color: black;
+    color:white;
+    padding: 5rem 8rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+.footer p i{
+    padding-right: 5px;
+}
