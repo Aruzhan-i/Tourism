@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.facts{
+    position: relative;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3)),url("https://travelermaster.com/wp-content/uploads/2019/08/polina-raevskaya-ToJNyWpDn9I-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav-bar{
+    background: rgba(0,0,0,0.7);
+    height: 67px;
+    position: absolute;
+    width: 100%;
+}
+.menu {
+    float: right;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+}
+#logotype{
+    margin: 0 50px;
+    padding: 10px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}
+.menu li {
+    list-style: none;
+    margin: 0 5px;
+}
+.menu li a {
+    padding: 1em;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu li a:hover {
+    color: #A2D0CF;
+}
+.mega-menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.menu li:hover > .mega-menu {
+    opacity: 1;
+    overflow: visible;
+    visibility: visible;
+}
+.mega-menu .column {
+    padding: 1em;
+}
+.mega-menu .column ul {
+    margin: 0;
+    padding: 0;
+}
+.mega-menu .column li {
+    margin-bottom: 0.75em;
+}
+.mega-menu .column h2{
+    text-transform: uppercase;
+    margin: 0 0 1em 0;
+    color: white;
+    font-family: "Bookman Old Style", serif;
+}
+.mega-menu .column a {
+    padding: 0;
+}
+span{
+    color:cadetblue;
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    padding-top: 6%;
+    text-align: center;
+}
+.article-container{
+    margin-top: 2%;
+    justify-content: center;
+    display: flex;
+    gap: 2%;
+}
+.article-image{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img{
+    max-width: 380px;
+    max-height: 100%;
+    min-width: 100px;
+    border-radius: 20px 20px 0 0;
+}
+.article-card{
+    background: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 white;
+}
+.article-content{
+    padding: 1rem;
+}
+.article-content .card-title{
+    margin: auto;
+    color: black;
+}
+.article-content .card-excerpt{
+    font-size: 20px;
+    line-height: 1rem;
+    color: gray;
+    margin:0;
+    max-width: fit-content;
+}
+.inf{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.4)),url("https://www.state.gov/wp-content/uploads/2019/04/Kazakhstan-2426x1406.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cont h1{
+    color: #fff;
+    font-size: 60px;
+    padding: 2%;
+    text-align: center;
+}
+.people{
+    margin: 5% 2%;
+    display: flex;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    gap: 2%;
+}
+.person{
+    border-radius: 10%;
+    background: white;
+    max-width: 500px;
+    padding: 15px;
+    position: relative;
+    transition: 0.5s;
+}
+.person:hover{
+    box-shadow: 0 4px 20px 0 black;
+    transform: scale(1.05);
+}
+.person h3{
+    color: cadetblue;
+    font-size: 26px;
+    margin-top: 100px;
+}
+.person p.role{
+    color: #A2D0CF;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.person p{
+    position: relative;
+    text-align: justify;
+    margin: 5px 0 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 20px;
+}
+.person_img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    background: white;
+    transform: translateX(-50%);
+}
+.person_img img{
+    width:150px;
+    height: 150px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.tex{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.4)),url("https://farawayistan.com/wp-content/uploads/2020/01/DSCF5975.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ktext{
+    max-width: 85%;
+    padding: 50px;
+    background:white;
+    transition: 0.5s;
+}
+.ktext:hover{
+    transform: scale(1.07);
+}
+
+.ktext h2{
+    font-size: 60px;
+}
+
+.ktext p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+.ktext ul{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.footer{
+    border-top: 3px solid black;
+    background-color: black;
+    color:white;
+    padding: 5rem 8rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+.footer p i{
+    padding-right: 5px;
+}
+
+
