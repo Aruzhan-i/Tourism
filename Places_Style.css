@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.upper{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3)),url("https://travelermaster.com/wp-content/uploads/2019/08/polina-raevskaya-ToJNyWpDn9I-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+}
+.navbar-brand{
+    margin: 0 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.navbar-nav a:hover{
+    color: #A2D0CF !important;
+
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+
+}
+.menu-area{
+    position: static;
+}
+.mega-area h4{
+    text-transform: uppercase;
+}
+.mega-area{
+    margin: 0 0 1em 0;
+    color: white;
+    padding: 20px;
+
+    font-family: "Bookman Old Style", serif;
+}
+.dropdown-item{
+    padding: 5px 0;
+    color: white;
+}
+span{
+    color:cadetblue;
+}
+h1 {
+    color: #fff;
+    font-family: "Lucida Bright", serif;
+}
+h4 {
+    color: #fff;
+    letter-spacing: 2px;
+}
+h2{
+    color: #ffffff;
+    margin: auto;
+}
+.btn {
+    color: #A2D0CF;
+    border: 1px solid #A2D0CF;
+    transition: .4s;
+}
+.btn:hover{
+    background: #A2D0CF;
+    color: rgba(0,0,0,0.9);
+}
+.places{
+    padding: 100px 0;
+    background: rgba(0,0,0,0.9);
+}
+.places .container .row{
+    margin-bottom: 100px;
+}
+.places .container .row:last-child{
+    margin: 0;
+}
+.places .container .row .col-md-6{
+    margin: 1%;
+    color:white;
+}
+button{
+    background-color:#A2D0CF;
+    color: #262626;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    font-size: 15px;
+}
+button:hover{
+    background-color: transparent;
+    color: #A2D0CF;
+    border: 2px solid #A2D0CF;
+    cursor: pointer;
+}
+.links{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.3)),url("https://farawayistan.com/wp-content/uploads/2020/01/DSCF5975.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+iframe{
+    margin: 2%;
+}
+footer{
+    background-color: black;
+    color:white;
+    font-size: 17px;
+    padding: 60px 100px;
+}
+footer.row{
+    margin-top: 100px;
+}
+@media only screen and (min-width: 1025px) {
+    h1 {
+        font-size: 55px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 35px;
+    }
+    h5{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .btn {
+        padding: 20px 30px;
+    }
+    img{
+        width: 500px;
+        max-height: 350px;
+    }
+    iframe{
+        width: 500px;
+        height: 290px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .navbar-brand{
+        font-size: 27px;
+    }
+    .btn {
+        padding: 15px 25px;
+    }
+    img{
+        width: 350px;
+        max-height: 220px;
+    }
+    iframe{
+        width: 350px;
+        height: 220px;
+    }
+    footer{
+        padding:40px 80px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    p{
+        font-size: 15px
+    }
+
+    .navbar-brand{
+        font-size: 22px;
+    }
+    .places .container .row img{
+        width: 250px;
+        max-height: 170px;
+    }
+    iframe{
+        width: 250px;
+        height: 170px;
+    }
+    footer{
+        padding:20px 40px;
+    }
+
+}

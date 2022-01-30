@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.upper{
+    padding: 80px 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3)),url("https://travelermaster.com/wp-content/uploads/2019/08/polina-raevskaya-ToJNyWpDn9I-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+}
+.navbar-brand{
+    margin: 0 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.navbar-nav a:hover{
+    color: #A2D0CF !important;
+
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+
+}
+.menu-area{
+    position: static;
+}
+.mega-area h4{
+    text-transform: uppercase;
+}
+.mega-area{
+    margin: 0 0 1em 0;
+    color: white;
+    padding: 20px;
+
+    font-family: "Bookman Old Style", serif;
+}
+.dropdown-item{
+    padding: 5px 0;
+    color: white;
+}
+span{
+    color:cadetblue;
+}
+.upper .container{
+    padding-top: 20px;
+}
+.upper .card{
+    border-radius: 25px;
+    transition: 0.5s;
+}
+[class*="col-"]{
+    padding: 1%;
+    margin-bottom: 2%;
+}
+.upper .card-img-top{
+    border-radius: 25px 25px 0 0;
+}
+.upper .card-text {
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: dimgrey;
+}
+.upper .card:hover{
+    box-shadow: 0 5px 20px 0 white;
+}
+.people{
+    padding: 50px 0;
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.4)),url("https://www.state.gov/wp-content/uploads/2019/04/Kazakhstan-2426x1406.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.row{
+    margin-top: 25px;
+}
+.people .card{
+    transition: 0.4s;
+}
+.people .card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.9;
+    filter: brightness(0.8);
+}
+.people .card .profile-image{
+    z-index: 1;
+    margin: -25% auto 0 auto;
+    background: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.people .card .profile-image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.people .card .card-text{
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.people .card .card-body{
+    margin-top: -20px;
+}
+.people .card:hover{
+    transform: scale(1.01);
+}
+.gen{
+    background: rgba(0,0,0,0.9);
+    padding: 50px 0;
+}
+.gen .card{
+    background: transparent;
+    border: transparent;
+}
+footer{
+    background-color: black;
+    color:white;
+    font-size: 17px;
+    padding: 60px 100px;
+}
+footer.row{
+    margin-top: 100px;
+}
+@media only screen and (min-width: 1025px){
+    h1 {
+]        font-size: 55px;
+    }
+    h2{
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    h4{
+         font-size: 35px;
+     }
+    h5{
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .card ul{
+        font-size: 20px;
+    }
+    .card .card-title{
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (min-width: 576px) and(max-width: 1024px){
+    h1 {
+        font-size: 40px;
+    }
+    h2{
+        font-size: 40px;
+        padding-top: 15px
+    }
+    h4{
+        font-size: 30px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .card ul{
+        font-size: 18px;
+    }
+    .navbar-brand{
+        font-size: 27px;
+    }
+    .card .card-title{
+        margin-bottom: 5px;
+    }
+    footer{
+        padding:40px 80px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px
+    }
+    .card ul{
+        font-size: 16px;
+    }
+    .container [class*="col-"]{
+        padding: 0 20px;
+    }
+    .card .card-title{
+        margin-bottom: 3px;
+    }
+    .navbar-brand{
+        font-size: 23px;
+    }
+    footer{
+        padding:20px 40px;
+    }
+}

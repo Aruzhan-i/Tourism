@@ -1,0 +1,358 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', serif;
+}
+header{
+    height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+#video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+.navbar{
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+}
+.navbar-brand{
+    margin: 0 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.navbar-nav a:hover{
+    color: #A2D0CF !important;
+
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+
+}
+.menu-area{
+    position: static;
+}
+.mega-area h4{
+    text-transform: uppercase;
+}
+.mega-area{
+    margin: 0 0 1em 0;
+    color: white;
+    padding: 20px;
+
+    font-family: "Bookman Old Style", serif;
+}
+.dropdown-item{
+    padding: 5px 0;
+    color: white;
+}
+#central-text{
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Times New Roman", serif;
+    margin-top: 20%;
+
+}
+hr{
+    margin-top:-25px;
+    background-color: #fff;
+
+}
+#central-text h2{
+    font-size: 55px;
+    font-weight: bold;
+}
+#central-text p{
+    font-size: 28px;
+    font-weight: bold;
+}
+#photos{
+    margin-top: 50px;
+}
+#photos img{
+    height: 230px;
+    width: 290px;
+    filter: brightness(60%);
+}
+#kz{
+   background-image: linear-gradient(to top,rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3)),url("https://travelermaster.com/wp-content/uploads/2019/08/polina-raevskaya-ToJNyWpDn9I-unsplash.jpg");/*#A1CE5E;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -270px;
+    font-family: "Consolas", serif;
+    text-align: justify;
+
+}
+#kz h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+#kz p{
+    font-size: 17px;
+}
+
+#one{
+    background: white;
+}
+#two{
+    background: white;
+}
+#three{
+    background: white;
+}
+section img{
+    width:450px;
+    height:350px;
+}
+section button{
+    background-color: black;
+    color: white;
+    padding: 5px 50px;
+    margin: 1px 313px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+#medium{
+    background-color: black;
+}
+.contact-us{
+    padding: 10px 200px;
+}
+.contact-us h2{
+
+    font-weight: bold;
+    font-size: 35px;
+}
+.contact-us textarea {
+    min-height: 130px;
+    max-width: 100%;
+}
+.contact-us input[type=submit] {
+
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100%
+
+}
+footer{
+    margin-top: 100px;
+    border-top: 1px solid #ecf0f1;
+    background-color: black;
+    color:white;
+    font-size: 17px;
+    padding: 60px 100px;
+
+}
+footer.row{
+    margin-top: 100px;
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    #photos{
+        margin-top: 70px;
+    }
+    .contact-us{
+        padding: 10px 70px;
+    }
+    .contact-us h2{
+
+        font-weight: bold;
+        font-size: 30px;
+    }
+    section img{
+        width:350px;
+        height:300px;
+        margin: 30px;
+    }
+    section button{
+        padding: 3px 40px;
+        margin: -10px 265px;
+    }
+    #kz h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #kz p{
+        font-size: 16px;
+    }
+
+}
+
+@media  (min-width: 768px) and (max-width: 1024px) {
+    #central-text{
+        margin-top: 17%;
+    }
+    #central-text h2{
+        font-size: 40px;
+    }
+    #central-text p{
+        font-size: 30px;
+    }
+    #photos{
+        margin-top:  70px;
+    }
+    .contact-us{
+        padding: 10px 140px;
+    }
+    .contact-us h2{
+
+        font-weight: bold;
+        font-size: 30px;
+    }
+    footer{
+        font-size: 16px;
+        padding: 40px 120px;
+
+    }
+    section img{
+        width:300px;
+        height:250px;
+        margin: 70px 0 0 0;
+    }
+    section button{
+        padding: 3px 40px;
+        margin: 1px 185px;
+    }
+    #kz h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #kz p{
+        font-size: 14px;
+    }
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    .mega-area{width: 100%;}
+    #central-text{
+        margin-top: 40%;
+    }
+    #central-text h2{
+        font-size: 40px;
+    }
+    #central-text p{
+        font-size: 25px;
+    }
+    #photos{
+        margin-top: 70px;
+    }
+    .contact-us{
+        padding: 10px 100px;
+    }
+    .contact-us h2{
+
+        font-weight: bold;
+        font-size: 25px;
+    }
+    section img{
+        width:350px;
+        height:250px;
+        margin: -40px 0 0 40px;
+    }
+    #kz h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #kz p{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 16px;
+        padding: 40px 180px;
+
+    }
+    section img{
+        width:350px;
+        height:250px;
+        margin: -70px 0 0 40px;
+    }
+    section button{
+        padding: 14px 20px;
+        margin: 1px 150px;
+    }
+    #kz h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #kz p{
+        font-size: 15px;
+    }
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+}
+
+
+@media  screen and (max-width:576px) {
+.mega-area{width: 100%}
+    #central-text{
+        margin-top: 50%;
+    }
+    #central-text h2{
+        font-size: 35px;
+    }
+    #central-text p{
+        font-size: 22px;
+    }
+    #photos{
+        margin-top: 70px;
+
+    }
+    .contact-us{
+        padding: 10px 50px;
+    }
+    .contact-us h2{
+
+        font-weight: bold;
+        font-size: 22px;
+    }
+    section img{
+        width:350px;
+        height:250px;
+        margin: -70px 0 0 40px;
+    }
+    section button{
+        padding: 14px 20px;
+        margin: 1px 150px;
+    }
+    #kz h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    #kz p{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 15px;
+        padding: 20px 130px;
+
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+}
+
