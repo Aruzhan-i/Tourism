@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.upper{
+
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3)),url("https://monklab.org/wp-content/uploads/2016/04/ASTANA.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar{
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+}
+.navbar-brand{
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.navbar-nav a:hover{
+    color: #A2D0CF !important;
+
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+
+}
+.menu-area{
+    position: static;
+}
+.mega-area h4{
+    text-transform: uppercase;
+}
+.mega-area{
+    margin: 0 0 1em 0;
+    color: white;
+    padding: 20px;
+
+    font-family: "Bookman Old Style", serif;
+}
+.dropdown-item{
+    padding: 5px 0;
+    color: white;
+}
+
+#mid {
+
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#mid p{
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+#mid h2{
+    color:#fff;
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+}
+
+#mid .btn a.first {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    border:2px solid red;
+    font-weight: 900;
+    padding: 0.9rem;
+    border-radius: 2px;
+
+}
+#mid .btn a.first:hover{
+    background: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+.image {
+    width: 500px;
+    height: auto;
+    margin: 50px;
+}
+
+
+.hotels{
+    background: #171819;
+    width: 100%;
+
+    padding: 10px 60px;
+}
+.hotels h1,h3,h4,p,h6{
+    color: white;
+}
+
+.hotels  a{
+    color: red;
+    border: 1px solid red;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hotels a:hover{
+    border: 1px solid red;
+    background: white;
+    cursor: pointer;
+
+}
+
+footer{
+
+    border-top: 1px solid #ecf0f1;
+    background-color: black;
+    color:white;
+    font-size: 17px;
+    padding: 60px 100px;
+
+}
+footer.row{
+    margin-top: 100px;
+}
