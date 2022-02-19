@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.upper{
+    /*snippet */
+    width:100%;
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.1)),url("https://travelermaster.com/wp-content/uploads/2019/08/polina-raevskaya-ToJNyWpDn9I-unsplash.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: 'Poppins', serif;
+}
+.navbar-brand{
+    margin: 0 10px;
+    font-weight: bold;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.navbar-nav a:hover{
+    color: #A2D0CF !important;
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+}
+.mega-area h6{
+    text-transform: uppercase;
+}
+.mega-area{
+    color: white;
+    padding: 20px;
+    font-family: "Bookman Old Style", serif;
+}
+.dropdown-item{
+    padding: 5px 0;
+    color: white;
+}
+span{
+    color:cadetblue;
+}
+h1 {
+    color: #fff;
+    font-family: "Lucida Bright", serif;
+}
+h4 {
+    color: #fff;
+    letter-spacing: 2px;
+}
+h2{
+    /*color: #ffffff;*/
+    margin: auto;
+}
+.btn {
+    color: #A2D0CF;
+    border: 1px solid #A2D0CF;
+    transition: .4s ease;
+}
+.btn:hover{
+    background: #A2D0CF;
+    color: rgba(0,0,0,0.9);
+}
+.places{
+    padding: 150px 0 130px 0;/*
+    background: rgba(0,0,0,0.9);*/
+}
+.places .slideshow-container img{
+    border-radius: 5%;
+    transition: .4s ease;
+}
+.places .slideshow-container img:hover{
+    box-shadow: 0 5px 20px 0 cadetblue;
+}
+.places .slideshow-container .mySlides{
+    display: none;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.places .mySlides .col-md-6{
+    margin: 2%;/*
+    color:white;*/
+}
+.places .slideshow-container .prev, .places .slideshow-container .next {
+    cursor: pointer;
+    position: absolute;
+    padding: 16px;
+    color: black;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.places .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideshow-container .prev:hover, .slideshow-container .next:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: cadetblue;
+}
+
+.places .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.places .active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+/*snippet*/
+.places button{
+    background-color:cadetblue;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 4px;
+    transition: .4s;
+}
+.places button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #A2D0CF;
+    cursor: pointer;
+}
+.links{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.1)),url("https://aboutkazakhstan.com/blog/wp-content/uploads/2020/12/new-year-kazakhstan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+iframe{
+    margin: 2%;
+}
+.slide-in{
+    transform: translateX(70%);
+    transition: opacity 250ms ease-in, transform 500ms ease-in;
+    opacity: 0;
+}
+.slide-in.appear{
+    transform: translateX(0);
+    opacity: 1;
+}
+footer{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+footer a{
+    color: white;
+}
+#more {display: none;}
+#myBtn{
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+}
+@media only screen and (min-width: 1025px) {
+    h1 {
+        font-size: 55px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 35px;
+    }
+
+    .places p{
+        font-size: 20px;
+    }
+    .btn {
+        padding: 20px 30px;
+    }
+    .places .slideshow-container img{
+        max-width: 500px;
+        height: 350px;
+    }
+    iframe{
+        width: 500px;
+        height: 290px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .places p {
+        font-size: 18px;
+    }
+    .btn {
+        padding: 15px 25px;
+    }
+    .places .slideshow-container img{
+        max-width: 350px;
+        height: 220px;
+    }
+    iframe{
+        width: 350px;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .places p{
+        font-size: 15px
+    }
+    .places .slideshow-container img{
+        max-width: 250px;
+        height: 170px;
+    }
+    iframe{
+        width: 250px;
+        height: 170px;
+    }
+
+}

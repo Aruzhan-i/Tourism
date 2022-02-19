@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGL83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+    <link rel="stylesheet" href="Places_Style.css">
+    <link rel="shortcut icon" type="image/jpeg" href="favicon.jpeg">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Places</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!---
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGL83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Places_Style.css">
+    <link rel="shortcut icon" type="image/jpeg" href="favicon.jpeg">
+    <title >Places</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
+
+</head>
+<body>
+<nav class="navbar fixed-top" id="nav_bar">
+    <a href="#" class="navbar-brand text-white ">TripToKz <div id="div1" class="fa"></div></a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarDrop">
+        <i class="fas fa-bars" style="color:#fff; font-size:24px;"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarDrop">
+        <ul class="navbar-nav" >
+            <li class="nav-item"><a class="nav-link text-white" href="PB.html">Main</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="Places.html">Places</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-white" id="mega_menu" data-toggle="dropdown-menu"  aria-expanded="false" href="#">Accommodation</a>
+                <div class="dropdown-menu mega-area bg-transparent" aria-labelledby="mega_menu">
+                    <div class="row" >
+                        <div class="col-sm-3 col-lg-4 col-3 col-md-4" >
+                            <h6>East</h6>
+                            <a class="dropdown-item" href="#">Uralsk</a>
+                            <a class="dropdown-item" href="#">Aktobe</a>
+                            <a class="dropdown-item" href="#">Aktau</a>
+                        </div>
+                        <div class="col-sm-4  col-lg-5 col-5 col-md-4">
+                            <h6>Center</h6>
+                            <a class="dropdown-item" href="accomodation.html">Nur-Sultan</a>
+                            <a class="dropdown-item" href="#">Karaganda</a>
+                            <a class="dropdown-item" href="#">Shymkent</a>
+                        </div>
+                        <div class="col-sm-3 col-lg-3 col-4 col-md-4">
+                            <h6>West</h6>
+                            <a class="dropdown-item" href="#">Taldykorgan</a>
+                            <a class="dropdown-item" href="#">Semey</a>
+                            <a class="dropdown-item" href="#">Almaty</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="upper">
+
+    <div class="container d-flex flex-column  justify-content-center" style="height: 85vh;">
+        <h4>Can't wait to start the <span>JOURNEY</span>?</h4>
+        <h1 class="font-weight-light"> Here are some of the most beautiful places in <span>KZ</span>!</h1><br><br>
+        <div>
+            <a class="btn" href="#start">Let's GO!</a>
+        </div>
+    </div>
+</div>
+<div id="start" class="places">
+    <div class="slideshow-container ">
+        <div class="mySlides">
+            <div class="row justify-content-center  align-items-center text-justify ">
+            <img src="https://barometr.kg/storage/app/uploads/public/5b7/523/250/5b75232505b00120254445.png" alt="Astana">
+            <div class="col-md-6">
+                <h2>Nur-Sultan/Capital of KZ</h2>
+                <h5> <i class="fa fa-location-arrow"></i>
+                    Located in <span>Central Kazakhstan</span></h5>
+                <p class="h-100">
+                    Nur-Sultan, formerly known as Akmolinsk, Tselinograd, and Astana, is the capital city of Kazakhstan. The city acquired its present name on March 23, 2019, following a unanimous vote in Kazakhstan's parliament. It was named after Nursultan Nazarbayev, President of Kazakhstan from 1990 to 2019.
+                </p>
+                <button onclick="location.href='Nur-Sultan.html'">Let's See</button>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="mySlides">
+            <div class="row justify-content-center  align-items-center text-justify ">
+                <img src="https://img.itinari.com/pages/images/original/c2135a6d-06ff-4f5c-8875-6bcc3f29873e-istock-1072495310-1.jpg?ch=DPR&dpr=1&w=1600&s=ac4a6a0512ade62901ac9580bdb25dfe" alt="Charyn Canyon">
+                <div class="col-md-6">
+                    <h2>Charyn Canyon</h2>
+                    <h5><i class="fa fa-location-arrow"></i>
+                        Located in <span>River Charyn</span></h5>
+                    <p class="h-100">
+                        Charyn Canyon is part of the Charyn National Park and stretches 154 km along the Charyn River, one of the deepest rivers of the Northern Tien Shan mountains.
+                        For more than 12 million years, wind, water and sand sculpted Charyn’s red sandstone to form the wonderful shapes and shades that vary from deep orange to light brown.
+                    </p>
+                    <button>Let's See</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mySlides ">
+            <div class="row justify-content-center  align-items-center text-justify">
+            <img src="https://almaty-travel.com/wp-content/uploads/2018/10/almaty_big_lake1.jpg" alt="Big Almaty lake">
+            <div class="col-md-6">
+                <h2>Almaty Lake</h2>
+                <h5> <i class="fa fa-location-arrow"></i> Located in <span>Ile-Alatau</span></h5>
+                <p class="h-100"> Big Almaty Lake is easily the most famous and recognizable lake in Kazakhstan. Situated extremely close to Almaty, it can strangely feel like worlds away from city life when you arrive in the mountains to the lake.
+                    Known for its ever-changing blue and teal hues, the lake is located very close to the border of Kyrgyzstan.
+                </p>
+                <button>Let's See</button>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="mySlides ">
+            <div class="row justify-content-center  align-items-center text-justify">
+            <img src="https://img.travelhk.com/articles/images/ea8f180d75b8d9244e11c2291fddfe3b2062315c5d2ef569ba7ff33f93c97f6f.jpg" alt="Masoleum of Khoja Ahmed Yasawi">
+            <div class="col-md-6">
+                <h2>Turkestan</h2>
+                <h5><i class="fa fa-location-arrow"></i>
+                    Located in the <span>South of KZ</span></h5>
+                <p class="h-100">
+                    Turkestan was one of the most important commercial centers of the Silk Road. The city was founded over 15 centuries ago and is now the historical center of Kazakhstan’s culture.
+                    Turkestan is now known for the Mausoleum of Khoja Ahmed Yasawi, a Turkic Sufi saint who was the first man to introduce the Islam religion in Central Asia.
+                </p>
+                <button>Let's See</button>
+            </div>
+            </div>
+        </div>
+
+        <audio id="myAudio">
+            <source src="medium.mp3" type="audio/mpeg">
+        </audio>
+
+        <a class="prev" onclick="playMinus()">&#10094;</a>
+        <a class="next" onclick="playPlus()">&#10095;</a>
+
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</div>
+
+
+
+<div class="links">
+    <div class="container text-center">
+        <h2 class="text-white">Here are the experience of other tourists</h2>
+        <div class="row justify-content-center">
+            <iframe class="slide-in" src="https://www.youtube.com/embed/8vmxYRgWt7s" title="What is really like KZ?"></iframe>
+            <iframe class="slide-in" src="https://www.youtube.com/embed/gUwORltnQqM" title="Remote Region"></iframe>
+            <iframe class="slide-in" src="https://www.youtube.com/embed/4TgUXAXAEWA" title="The most Beautiful"></iframe>
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer font-small teal pt-4">
+    <br><br>
+    <div class="container text-center text-md-left">
+
+        <div class="row text-center text-md-left">
+
+            <div class="col-md-4 col-lg-4 col-xl-4  mt-md-0 mt-3 ">
+                <h5 class="text-uppercase mb-4 font-weight-bold"><span style="color: cadetblue">ABOUT</span></h5>
+                <p>TripToKz - is a website for travelling which<span id="dots" style="color:white">...</span><span id="more" style="color:white"> introduces Kazakhstan's beautiful and mesmerizing places
+                to visitors in order to develop tourism in our country</span></p>
+                <button onclick="myFunction()" id="myBtn">Read more</button><br><br>
+
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-xl-4 mt-md-0 mt-3 ">
+                <h5 class="text-uppercase mb-4 font-weight-bold"><span style="color: cadetblue">CREDENTIALS</span></h5>
+                <p>Copyright &copy; 2022 Trip to KZ Co.<br> Design: Tech etc</p><br>
+            </div>
+
+
+
+            <div class="col-md-4 col-lg-4 col-xl-4 mb-md-0 mb-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold"><span style="color: cadetblue">CONTACT</span></h5>
+                <p><i class="far fa-envelope" aria-hidden="true"></i> triptokz@company.co<br><i class="fas fa-phone" aria-hidden="true"></i> 0000-000-0000<br><i class="fab fa-instagram" aria-hidden="true"></i> triptokz</p><br>
+            </div>
+
+        </div>
+
+    </div> <br>
+    <div class="footer-copyright text-center py-0">© 2022 Copyright:
+        <a href="PB.html"> TripToKz</a>
+    </div>
+    <br>
+
+</footer>
+<script src="pjs.js"></script>
+
+</body>
+</html>

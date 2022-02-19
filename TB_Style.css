@@ -1,0 +1,158 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Poppins", serif;
+}
+#video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+.navbar{
+    background: rgba(0,0,0,0.8);
+    font-size: 25px;
+    font-family: "Poppins", serif;
+}
+.navbar-brand{
+    margin: 0 10px;
+    font-weight: bold;
+}
+.navbar-nav{
+    padding: 10px;
+}
+.navbar-nav a:hover{
+    color: #A2D0CF !important;
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+}
+.mega-area h6{
+    text-transform: uppercase;
+}
+.mega-area{
+    color: white;
+    padding: 20px;
+    font-family: "Bookman Old Style", serif;
+}
+.dropdown-item{
+    padding: 5px 0;
+    color: white;
+}
+header{
+    height: 100vh;
+}
+#central-text{
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Times New Roman", serif;
+}
+#central-text h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+#central-text h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+#photos img{
+    height: 200px;
+    width: 220px;
+    filter: brightness(60%);
+}
+#kz{
+   background-image: linear-gradient(to top,rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.3)),url("https://travelermaster.com/wp-content/uploads/2019/08/polina-raevskaya-ToJNyWpDn9I-unsplash.jpg");/*#A1CE5E;*/
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -270px;
+    text-align: justify;
+}
+#kz h3{
+    font-size: 27px;
+    font-weight: bold;
+}
+#kz img{
+    width: 400px;
+    height: 250px;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+#one{
+    margin-top: 200px;
+    background: white;
+}
+#two, #three{
+    background: white;
+}
+section button{
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 4px;
+    transition: .4s;
+    cursor: pointer;
+}
+section button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #A2D0CF;
+    cursor: pointer;
+}
+#button{
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 40%;
+}
+#contact{
+    font-family: "Times New Roman";
+}
+.empty {
+    border: 1px solid red;
+}
+.red{
+    color: red;
+}
+footer{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+footer a{
+    color: white;
+}
+
+@media screen and (max-width:767px) {
+    .mega-area{width: 100%;}
+}
+@media  screen and (max-width:576px) {
+.mega-area{width: 100%}
+
+}
+#more {display: none;}
+#myBtn{
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+}
+
+
+
